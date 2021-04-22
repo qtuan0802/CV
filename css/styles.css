@@ -3,17 +3,14 @@ body {
   text-align: center;
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Merriweather", serif;
-}
-p {
   color: #40514e;
 }
+
 hr {
-  border-top: dotted 10px;
-  border-right: none;
-  border-left: none;
+  border: dotted #eaf6f6 6px;
   border-bottom: none;
-  color: #eaf6f6;
-  width: 10%;
+  width: 4%;
+  margin: 100px auto;
 }
 .top-container {
   background-color: #e4f9f5;
@@ -60,15 +57,18 @@ h3 {
 }
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 300px;
 }
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
-
+.intro {
+  width: 30%;
+  margin: auto;
+}
 .skill-row_img1 {
   width: 25%;
   float: left;
@@ -83,9 +83,10 @@ h3 {
   width: 50%;
   margin: 100px auto;
   text-align: left;
+}
+p {
   line-height: 2;
 }
-
 a {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
